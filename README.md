@@ -18,34 +18,40 @@ or if you choose to host it yourself:
 
     sl.print(‘p’, ‘Hello’);
 
-<br>
+<br>  
+
 ***sl.hide(@elementId-toHide);***  
 
     sl.hide(‘p1’);
 
-<br>
+<br>  
+
 ***sl.show(@elementId-toShow);***  
 
     sl.show(‘p1’);
 
-<br>
+<br>  
+
 ***sl.col(@elementId-toChangeColor, @newColor);***  
 
     sl.col(‘p1’, ‘red’);
 
-<br>
+<br>  
+
 ***sl.family(@elementId-toChangeFont, @newFontFamily);***  
 
     sl.family(‘p1’, ‘Impact, Charcoal, sans-serif’)
 
-<br>
+<br>  
+
 ***sl.size(@elementId-toChangeSize, @newSize);***  
 
     sl.size(‘p1’, ‘medium’);  
 > Options for __*size*__:  
 > *xx-small  |  x-small  |  small  |  medium  |  large  |  x-large  |  xx-large  |  smaller  |  larger*  
 
-<br>
+<br>  
+
 ***sl.wait(@function, @milliseconds);***  
 
     sl.wait(‘f1()’, 1000);  
@@ -53,17 +59,20 @@ or if you choose to host it yourself:
       alert(‘i love blizard.js’);  
     };
 
+<br>  
 
 ***sl.setlocalstorage(@nameForStorage, @storageValue);***  
 
     sl.setlocalstorage(‘name’, ‘smith’);
 
-<br>
+<br>  
+
 ***sl.printlocalstorage(@element-toShowValue, @storageToShow);***  
 
     sl.printlocalstorage(‘p1’, ‘name’);
 
-<br>
+<br>  
+
 ***sl.click(@element-toMakeClickable, @function-whenClicked);***  
 
     sl.click(‘p’, ‘click()’);
@@ -71,13 +80,15 @@ or if you choose to host it yourself:
       console.log(‘do something in here’);
     };
 
-<br>
+<br>  
+
 ***sl.id(@element-toChangeId, @element-newId);***  
 
     sl.id(‘old-id’, ‘new-id’);
 > Could be used to modify element styles without additional Javascript.  
 
-<br>
+<br>  
+
 ***sl.createElement(@NEW-ELEMENT, @PARENT, @newElement-id);***  
 
     sl.createElement(‘P’, ‘HEAD’, ‘id’);
