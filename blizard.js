@@ -1,7 +1,7 @@
 
 
 
-   //blizard.js version 0.4 BETA by Rohan Samra-O'Neill
+   //blizard.js version 0.5.1BETA by Rohan Samra-O'Neill
 /* 
 uses the atomo.css library created by Rohan Samra-O'Neill
 */
@@ -141,4 +141,7 @@ sl.createElement = function (sel, sel1, sel2) {
 
    // Append link element to HTML head 
    father.appendChild(elem);  
+}
+sl.changeBackgroundColor = function(sel, sel1) {
+   document.getElementById(sel).style.backgroundColor = sel1;
 }
