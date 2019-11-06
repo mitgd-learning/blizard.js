@@ -1,7 +1,7 @@
 # blizard.js
 
 > __This library is still in the development stage. It is incomplete but, you are welcome to contribute.__  
-
+[website tutorial (i just converted the readme to HTML so all credit to Ethan Priest AKA allyouaskfor)](http://blizardjs.ueuo.com/)
 ## Getting Started
 
 Include the `blizard.js` file in your document the way which you prefer. Something like:  
