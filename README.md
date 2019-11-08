@@ -97,7 +97,7 @@ or if you choose to host it yourself:
 
 ## Built With
 
-* [atomo.css](atomo.ueuo.com) - Simple HTML/CSS library by Rohan Samra-O’Neill
+* [atomo.css](http://atomo.ueuo.com/) - Simple HTML/CSS library by Rohan Samra-O’Neill
 
 ## Authors
 
