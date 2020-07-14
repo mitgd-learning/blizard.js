@@ -1,6 +1,6 @@
 # blizard.js
 
-> __This library is still in the development stage. It is incomplete but, you are welcome to contribute.__  
+> __This library is No longer under development from its owner, Thank you all for the support and i hope to see you all in my future projects like the cup programming language.__  
 [website tutorial (i just converted the readme to HTML so all credit to Ethan Priest AKA allyouaskfor)](http://blizardjs.ueuo.com/)
 ## Getting Started
 
